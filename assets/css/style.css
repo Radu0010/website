@@ -292,21 +292,11 @@ nav ul li {
                     home section
 ===============================================================*/
 
-#home .overlay, #home .container {
-  position: relative;
-  z-index: 1;
-}
-.video-overlay {
-  position: absolute;
-  top: 0; left: 0; width: 100%; height: 100%;
-  background: rgba(50,50,50,0.5);  /* grey with 50% opacity */
-  z-index: 1;
-}
-
 #home {
   position: relative;
   overflow: hidden;
 }
+
 #home-bg-video {
   position: absolute;
   top: 0;
@@ -315,6 +305,23 @@ nav ul li {
   height: 100%;
   object-fit: cover;
   z-index: 0;
+}
+
+.video-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(50, 50, 50, 0.5); /* grey with 50% opacity */
+  z-index: 1;
+}
+
+#home .container,
+#home .main_home,
+#home .scrolldown {
+  position: relative;
+  z-index: 2;
 }
 
 .main_home {
