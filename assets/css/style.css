@@ -229,13 +229,12 @@ textarea.form-control:focus:not([readonly]) {
 ================================================================*/
 
 .cd-header a.brand-logo img {
-    width: 50px !important;   /* Set to your preferred size */
+    width: 150px !important;
     margin-left: 0;
     padding: 2px;
     margin-top: 10px;
-    height: auto;             /* Maintains aspect ratio */
+    height: auto;
 }
-
 .cd-header{
     position: fixed;
     top: 0;
