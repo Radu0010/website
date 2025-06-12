@@ -293,16 +293,19 @@ nav ul li {
                     home section
 ===============================================================*/
 
-.homebg {
-    background: url('assets/images/homebg.jpg') no-repeat center center/cover;
-    transition: filter 0.5s, opacity 0.5s;
+.home {
+    background: url(../images/homebg.jpg) no-repeat top center #141315;
+    background-size: cover;
+    position: relative;
+    padding-top: 80px;
+   background-attachment: fixed;
 }
 
-/* Example hover effect: darken and blur */
-.homebg:hover {
-    filter: brightness(0.7) blur(2px);
-    opacity: 0.9;
+.main_home {
+    padding: 170px 20px 170px 20px;
+    position: relative;
 }
+
 .main_home h1{
     width:100%;
     margin:20px auto;
